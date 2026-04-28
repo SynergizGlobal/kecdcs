@@ -1,4 +1,4 @@
-package com.synergizglobal.ircondcs.common;
+package com.synergizglobal.kecdcs.common;
 
 import java.io.BufferedInputStream;
 import java.io.FileNotFoundException;

@@ -17,7 +17,7 @@
             <div class="navbar-header">
                 <a href="#" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
                 <a href="#" class="bars"></a>
-                <a class="navbar-brand" href="home"><img src=" /ircon/resources/images/logo.png" width="100%" alt="Syntrack"/></a>
+                <a class="navbar-brand" href="home"><img src=" /kecdcs/resources/images/logo.png" width="100%" alt="Syntrack"/></a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -25,7 +25,7 @@
                     
                     <li class="">
                     	<a href="javascript:void(0);" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-		                  	 <img style="margin-top: -3px;" src=" /ircon/resources/images/user-icon.png" onerror = "setUserIconImage(this);"/>
+		                  	 <img style="margin-top: -3px;" src=" /kecdcs/resources/images/user-icon.png" onerror = "setUserIconImage(this);"/>
 		                    
 							 ${sessionScope.USER.userName }
 		                    <span class=" fa fa-angle-down"></span>
@@ -156,9 +156,9 @@
  
        <%--  <jsp:include page="./topNav.jsp"></jsp:include> --%>
  
-    <script src=" /ircon/resources/js/jquery.slimscroll.js"></script>    
-    <script src=" /ircon/resources/js/waves.js"></script>
-   	<script src=" /ircon/resources/js/admin.js"></script>
+    <script src=" /kecdcs/resources/js/jquery.slimscroll.js"></script>    
+    <script src=" /kecdcs/resources/js/waves.js"></script>
+   	<script src=" /kecdcs/resources/js/admin.js"></script>
 
 
  <script>
@@ -187,7 +187,7 @@
         <script>
         
 	        function setErrorImage(ele) {	
-		 		ele.src=" /ircon/resources/images/user-icon.png";
+		 		ele.src=" /kecdcs/resources/images/user-icon.png";
 				return true;
 			}
 		   	

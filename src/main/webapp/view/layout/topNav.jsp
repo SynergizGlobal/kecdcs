@@ -14,7 +14,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:void(0);" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                  	 <img style="margin-top: -3px;" src=" /ircon/resources/images/user-icon.png" onerror = "setUserIconImage(this);"/>
+                  	 <img style="margin-top: -3px;" src=" /kecdcs/resources/images/user-icon.png" onerror = "setUserIconImage(this);"/>
                     
 					 ${sessionScope.USER.userName }
                     <span class=" fa fa-angle-down"></span>
@@ -45,7 +45,7 @@
    
     
     function setUserIconImage(ele) {	
- 		ele.src=" /ircon/resources/images/user-icon.png";
+ 		ele.src=" /kecdcs/resources/images/user-icon.png";
 		return true;
 	}
 	

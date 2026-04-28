@@ -11,6 +11,7 @@
  http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 <mvc:resources mapping="/resources/**" location="/resources/"/>
 <mvc:annotation-driven/>
+<context:property-placeholder location="classpath:Placeholders.properties"/>
 <context:component-scan base-package="com.synergizglobal" />
 
 
@@ -36,14 +37,6 @@
 		<!-- <property name="maxUploadSize" value="10240000"/> -->
 	 </bean>
 	 
-	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="locations">
-            <list>
-                <value>classpath:Placeholders.properties</value>
-            </list>
-        </property>
-    </bean>
-    
     <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
 	    	<property name="jndiName" value="java:comp/env/jdbc/KECDCS_DB"/>
 	 </bean> 
