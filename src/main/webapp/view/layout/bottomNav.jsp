@@ -7,13 +7,16 @@
 <div class="menu navbar-fixed-top" role="navigation" >
             <div class="container">
             <div class="row">
-            <div class="col-md-3">  <div class="navbar-header" style="width: 550px;">
+            <div class="top-menu-bar">
+            <div class="col-md-3">  
+            	<div class="navbar-header" style="width: 550px;">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse.one">
                         <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
                     </button>
                     <!-- <a class="navbar-brand m" href="documents?folderId=0&levelId=1"> -->	
-                    <a class="navbar-brand m " style="color: #fff;font-weight:bold; font-size: 20px;" href="corresDocumentSearch">
-                  DFC Project, Package CTP12</a>
+                    <!-- <a class="navbar-brand m " style="color: #fff;font-weight:bold; font-size: 20px;" href="corresDocumentSearch">
+                  DFC Project, Package CTP12</a> -->
+                  <img src="/kecdcs/resources/images/logo.png" width="137px" height="57px">
                 </div></div>
              <div class="col-md-6 text-center"><div style=" color: #fff; padding: 10px; font-weight:bold; font-size: 20px; class="d-none d-md-block ">Document Management System</div></div>
               <div class="col-md-3">  <div class="collapse navbar-collapse one">
@@ -37,6 +40,7 @@
                         <!-- <li><a href="logout"><i class="fa fa-user "></i><span>Logout</span></a></li> -->
                     </ul>
                 </div><!--/.nav-collapse --></div>
+                </div>
             </div>
               
                 

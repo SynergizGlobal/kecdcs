@@ -174,7 +174,7 @@
               <div class="col-6">
                   <form class="form-signin" name="loginForm" id="loginForm" method="post">
                       <br><br>
-                      <div class="text-center"> <img src="/ircondcs/resources/images/logo.png"></div>
+                      <div class="text-center"> <img src="/kecdcs/resources/images/logo.png" width="137px" height="57px"></div>
                       <br><br>
                       <div class="text-center"><h4>Member <span class="text-red">Login</span></h4></div>
                       <br>

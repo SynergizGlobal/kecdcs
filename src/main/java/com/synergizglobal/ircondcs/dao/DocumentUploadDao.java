@@ -1561,8 +1561,17 @@ public class DocumentUploadDao {
 		Map<String, String> lookups = new HashMap<String, String>();
 		try {
 			con = dataSource.getConnection();
-			String qry = " select distinct (id), value from document_type dt, document d, folder f "
-					+ "where d.document_type_fk = dt.id AND D.document_id > 0 AND d.L1_folder_id_fk = f.folder_id";
+			/*
+			 * String qry =
+			 * " select distinct (id), value from document_type dt, document d, folder f " +
+			 * "where d.document_type_fk = dt.id AND D.document_id > 0 AND d.L1_folder_id_fk = f.folder_id"
+			 * ;
+			 */
+			String qry = " select distinct dt.id, dt.value from document_type dt, document d, folder f "
+			        + "where d.document_type_fk = dt.id "
+			        + "AND d.document_id > 0 "
+			        + "AND d.L1_folder_id_fk = f.folder_id";
+			
 			if ("C".equalsIgnoreCase(docType)) {
 				qry = qry + " AND LOWER(f.level_description) LIKE  '%correspond%'";
 			} else if ("D".equalsIgnoreCase(docType)) {

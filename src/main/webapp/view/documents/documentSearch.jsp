@@ -2030,6 +2030,25 @@ th {
 											</div>											
 											
 										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-4 col-xs-4 control-label labelsize"
+												for="textinput">Required Response *</label>
+											<div class="col-sm-7 col-xs-7 col-md-7">
+												<select id="required_response" name="required_response"
+													class="form-control chosen-select" onchange="toggleField()">
+													<option value="0">--Select Structure Type--</option>
+													<option value="yes">Yes</option>
+													<option value="no">No</option>
+												</select>
+												<span id="required_responseError"
+													style="color: #1B3D8F !important; font-weight: 100 !important; font-size: 11px !important;"></span>
+											</div>
+											<div class="col-sm-1 col-xs-1 col-md-1">
+												<i class="fa fa-plus" aria-hidden="true" onclick="addStructType()" style="padding-top:5px"></i>
+											</div>									
+											
+										</div>
 
 										<!-- Text input-->
 										<div class="form-group" id="versionNoUploadDiv">
@@ -2173,6 +2192,19 @@ th {
 											</div>									
 											
 										</div>
+										
+										<!-- Text input-->
+										<div class="form-group" id="req_response_date_field" style="display: none;">
+											<label class="col-sm-4 col-xs-4 control-label labelsize"
+												for="textinput">Due Date</label>
+											<div class="col-sm-8 col-xs-8">
+												<input type="date" id="req_res_date" name="req_res_date"
+													value="" class="form-control"> 
+													<span id="req_res_dateError"
+													style="color: #1B3D8F !important; font-weight: 100 !important; font-size: 11px !important;"></span>
+											</div>
+										</div>
+										
 
 									</fieldset>
 								</div>
@@ -2249,6 +2281,18 @@ th {
 			</div>
 
 			<script type="text/javascript">
+			
+			function toggleField() {
+			      var selectedValue = document.getElementById("required_response").value;
+			      var otherField = document.getElementById("req_response_date_field");
+
+			      if (selectedValue === "yes") {
+			        otherField.style.display = "block";
+			      } else {
+			        otherField.style.display = "none";
+			      }
+			    }
+				
 					function showNewUploadDocument(userId){
 		  	    		$('#showUploadDocumentModal').modal('show');
 		  	    		$('#documentUploadForm')[0].reset();
