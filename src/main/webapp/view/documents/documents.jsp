@@ -10,25 +10,25 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/ircondcs/resources/images/favicon-16x16.png"
+<link rel="icon" href="/kecdcs/resources/images/favicon-16x16.png"
 	type="image/x-icon">
 <title>IRCON - Document Management System</title>
-<link href="/ircondcs/resources/css/critical.min.css" rel='stylesheet'
+<link href="/kecdcs/resources/css/critical.min.css" rel='stylesheet'
 	type='text/css'>
 
 <!-- jQuery -->
-<script src=" /ircondcs/resources/js/vendors/jquery/dist/jquery.min.js"></script>
+<script src=" /kecdcs/resources/js/vendors/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap -->
 <script
-	src=" /ircondcs/resources/js/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- <link href="/ircondcs/resources/css/select2.min.css" rel='stylesheet'> -->
-<script src="/ircondcs/resources/js/jquery.validate.min.js"></script>
-<!-- <script src="/ircondcs/resources/js/select2.min.js"></script> -->
-<link href="/ircondcs/resources/css/chosen.css" rel="stylesheet">
+	src=" /kecdcs/resources/js/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- <link href="/kecdcs/resources/css/select2.min.css" rel='stylesheet'> -->
+<script src="/kecdcs/resources/js/jquery.validate.min.js"></script>
+<!-- <script src="/kecdcs/resources/js/select2.min.js"></script> -->
+<link href="/kecdcs/resources/css/chosen.css" rel="stylesheet">
 
 
 <!-- Custom CSS Style -->
-<link href="/ircondcs/resources/css/folder.files.css" rel="stylesheet">
+<link href="/kecdcs/resources/css/folder.files.css" rel="stylesheet">
 
 <style>
 .form-control {
@@ -165,8 +165,8 @@ th {
 
 </style>
 
-<script src="/ircondcs/resources/dropzone/dropzone.js"></script>
-<link rel="stylesheet" href="/ircondcs/resources/dropzone/dropzone.css" />
+<script src="/kecdcs/resources/dropzone/dropzone.js"></script>
+<link rel="stylesheet" href="/kecdcs/resources/dropzone/dropzone.css" />
 
 </head>
 
@@ -279,7 +279,7 @@ th {
 													<a
 														href="documents?levelId=${levelFolder.level}&folderId=${levelFolder.folderId}"><img
 														class="card-img-top"
-														src="/ircondcs/resources/images/files.svg" alt="Files"></a>
+														src="/kecdcs/resources/images/files.svg" alt="Files"></a>
 													<div class="card-body">
 														<h5 class="card-title">${levelFolder.levelId} ${levelFolder.levelDescription}</h5>
 													</div>
@@ -300,7 +300,7 @@ th {
 													var oCount = 1;
 	                    	            			var hypLink = '<div class="dropdown">';
 	                    	            			var loggedUserId = '<%=(String) session.getAttribute("USER_ID")%>';
-	                    	            			hypLink = hypLink + '<a class="dropbtn"><img id="'+${levelDocument.document_id}+'" class="card-img-top" src="/ircondcs/resources/images/document.svg" alt="Files"></a>';
+	                    	            			hypLink = hypLink + '<a class="dropbtn"><img id="'+${levelDocument.document_id}+'" class="card-img-top" src="/kecdcs/resources/images/document.svg" alt="Files"></a>';
 	                    	            			hypLink = hypLink + '<div class="dropdown-content">';
 	                    	            			hypLink = hypLink + '<a href="#" onClick="viewAttachment('+${levelDocument.document_id}+')">'+(oCount++)+'. Preview</a>';
 	                    	            			if('${levelDocument.flAllowDownload}' == 'Y'){ 
@@ -2868,34 +2868,34 @@ th {
 	<jsp:include page="./../layout/footer.jsp"></jsp:include>
 
 	<script
-		src=" /ircondcs/resources/js/vendors/select2/dist/js/select2.full.min.js"></script>
+		src=" /kecdcs/resources/js/vendors/select2/dist/js/select2.full.min.js"></script>
 	<!-- FastClick -->
 	<script
-		src=" /ircondcs/resources/js/vendors/fastclick/lib/fastclick.js"></script>
+		src=" /kecdcs/resources/js/vendors/fastclick/lib/fastclick.js"></script>
 	<!-- NProgress -->
-	<script src=" /ircondcs/resources/js/vendors/nprogress/nprogress.js"></script>
+	<script src=" /kecdcs/resources/js/vendors/nprogress/nprogress.js"></script>
 	<!-- jQuery custom content scroller -->
 	<script
-		src=" /ircondcs/resources/js/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+		src=" /kecdcs/resources/js/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 	<!-- Custom Theme Scripts -->
-	<script src=" /ircondcs/resources/js/custom.min.js"></script>
+	<script src=" /kecdcs/resources/js/custom.min.js"></script>
 
 	<!-- bootstrap-daterangepicker -->
-	<script src=" /ircondcs/resources/js/vendors/moment/min/moment.min.js"></script>
+	<script src=" /kecdcs/resources/js/vendors/moment/min/moment.min.js"></script>
 	<script
-		src=" /ircondcs/resources/js/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+		src=" /kecdcs/resources/js/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
 	<!-- bootstrap-daterangepicker -->
 
 	<!-- Datatables -->
 	<script
-		src=" /ircondcs/resources/js/vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+		src=" /kecdcs/resources/js/vendors/datatables.net/js/jquery.dataTables.min.js"></script>
 	<script
-		src=" /ircondcs/resources/js/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+		src=" /kecdcs/resources/js/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
 	<script
-		src=" /ircondcs/resources/js/vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+		src=" /kecdcs/resources/js/vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
 	<script
-		src=" /ircondcs/resources/js/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
-	<script src=" /ircondcs/resources/js/chosen.jquery.js"></script>
+		src=" /kecdcs/resources/js/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+	<script src=" /kecdcs/resources/js/chosen.jquery.js"></script>
 	<!-- Datatables -->
 
 

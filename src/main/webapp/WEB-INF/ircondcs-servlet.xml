@@ -12,14 +12,12 @@
 <mvc:resources mapping="/resources/**" location="/resources/"/>
 <mvc:annotation-driven/>
 <context:component-scan base-package="com.synergizglobal" />
-
-
      <mvc:interceptors>
 		<mvc:interceptor>
 			<mvc:mapping path="/**" />
 			<mvc:exclude-mapping path="/resources/**" />
 			<mvc:exclude-mapping path="/images/**" />
-			<bean class="com.synergizglobal.ircondcs.authenticationinterceptor.AuthenticationInterceptor" />
+			<bean class="com.synergizglobal.kecdcs.authenticationinterceptor.AuthenticationInterceptor" />
 		</mvc:interceptor>
 	 </mvc:interceptors>
 	
@@ -45,7 +43,7 @@
     </bean>
     
     <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
-	    	<property name="jndiName" value="java:comp/env/jdbc/IRCONDCS_DB"/>
+	    	<property name="jndiName" value="java:comp/env/jdbc/KECDCS_DB"/>
 	 </bean> 
 	
 	 

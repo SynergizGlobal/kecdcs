@@ -10,10 +10,10 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/ircondcs/resources/images/favicon-16x16.png"
+<link rel="icon" href="/kecdcs/resources/images/favicon-16x16.png"
 	type="image/x-icon">
 <title>IRCON</title>
-<link href="/ircondcs/resources/css/critical.min.css" rel='stylesheet'
+<link href="/kecdcs/resources/css/critical.min.css" rel='stylesheet'
 	type='text/css'>
 
 <!-- Google font -->
@@ -21,48 +21,48 @@
 <!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'> -->
 
 <!-- Bootstrap -->
-<!-- <link href="/ircondcs/resources/js/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/js/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 <!-- Font Awesome -->
-<!-- <link href="/ircondcs/resources/js/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/js/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 <!-- iCheck -->
-<!-- <link href="/ircondcs/resources/js/vendors/iCheck/skins/flat/green.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/js/vendors/iCheck/skins/flat/green.css" rel="stylesheet"> -->
 
 <!-- NProgress -->
-<!-- <link href="/ircondcs/resources/js/vendors/nprogress/nprogress.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/js/vendors/nprogress/nprogress.css" rel="stylesheet"> -->
 <!-- jQuery custom content scroller -->
-<!-- <link href="/ircondcs/resources/js/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet"/> -->
+<!-- <link href="/kecdcs/resources/js/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet"/> -->
 <!-- bootstrap-daterangepicker -->
-<!-- <link href="/ircondcs/resources/js/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/js/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet"> -->
 
 <!-- Custom Theme Style -->
-<!-- <link href="/ircondcs/resources/css/custom.min.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/css/custom.min.css" rel="stylesheet"> -->
 
 <!-- jQuery -->
-<script src=" /ircondcs/resources/js/vendors/jquery/dist/jquery.min.js"></script>
+<script src=" /kecdcs/resources/js/vendors/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap -->
 <script
-	src=" /ircondcs/resources/js/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- <link href="/ircondcs/resources/js/vendors/select2/dist/css/select2.min.css" rel="stylesheet"> -->
-<script src=" /ircondcs/resources/js/jquery.validate.min.js"></script>
+	src=" /kecdcs/resources/js/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- <link href="/kecdcs/resources/js/vendors/select2/dist/css/select2.min.css" rel="stylesheet"> -->
+<script src=" /kecdcs/resources/js/jquery.validate.min.js"></script>
 
 <!-- Custom CSS Style -->
-<!-- <link href="/ircondcs/resources/css/custom-style.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/css/custom-style.css" rel="stylesheet"> -->
 
-<!-- <link href="/ircondcs/resources/css/style.css" rel="stylesheet"> -->
-<!-- <link href="/ircondcs/resources/css/materialize.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/css/style.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/css/materialize.css" rel="stylesheet"> -->
 <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"> -->
-<!-- <link rel="stylesheet" href="/ircondcs/resources/css/darkmode.css"> -->
-<!-- <link rel="stylesheet" href="/ircondcs/resources/css/darkmode.css"> -->
+<!-- <link rel="stylesheet" href="/kecdcs/resources/css/darkmode.css"> -->
+<!-- <link rel="stylesheet" href="/kecdcs/resources/css/darkmode.css"> -->
 
 
 <!-- Datatables -->
-<!-- <link href="/ircondcs/resources/js/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet"> -->
-<!-- <link href="/ircondcs/resources/js/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet"> -->
-<!-- <link rel="stylesheet" href="/ircondcs/resources/css/darkmode.css"> -->
+<!-- <link href="/kecdcs/resources/js/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/js/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="/kecdcs/resources/css/darkmode.css"> -->
 
-<!-- <link href="/ircondcs/resources/css/darkmode.css" rel="stylesheet"> -->
+<!-- <link href="/kecdcs/resources/css/darkmode.css" rel="stylesheet"> -->
 
-<script src=" /ircondcs/resources/js/chosen.jquery.js"></script>
+<script src=" /kecdcs/resources/js/chosen.jquery.js"></script>
 
 
 <style>
@@ -346,40 +346,40 @@ label.error{color:red!important;font-size: 11px!important;}
 
     <footer class="page-footer" style="margin: 0 auto;">
         <div class=" container text-center ">
-            <p class="footer-text text-center ">Copyright <span id="year "><span id="year"></span>.</span> @<img src="/ircondcs/resources/images/logo.png " alt="ircon logo " class="footer-logo " style="height: 30px;"> | Designed &amp; Developed by
-                <img src="/ircondcs/resources/images/synergiz.png " alt="synergiz logo " class="footer-logo " style="height: 30px;"></p>
+            <p class="footer-text text-center ">Copyright <span id="year "><span id="year"></span>.</span> @<img src="/kecdcs/resources/images/logo.png " alt="ircon logo " class="footer-logo " style="height: 30px;"> | Designed &amp; Developed by
+                <img src="/kecdcs/resources/images/synergiz.png " alt="synergiz logo " class="footer-logo " style="height: 30px;"></p>
         </div>
     </footer>
     
 
 	<script
-		src=" /ircondcs/resources/js/vendors/select2/dist/js/select2.full.min.js"></script>
+		src=" /kecdcs/resources/js/vendors/select2/dist/js/select2.full.min.js"></script>
 	<!-- FastClick -->
 	<script
-		src=" /ircondcs/resources/js/vendors/fastclick/lib/fastclick.js"></script>
+		src=" /kecdcs/resources/js/vendors/fastclick/lib/fastclick.js"></script>
 	<!-- NProgress -->
-	<script src=" /ircondcs/resources/js/vendors/nprogress/nprogress.js"></script>
+	<script src=" /kecdcs/resources/js/vendors/nprogress/nprogress.js"></script>
 	<!-- jQuery custom content scroller -->
 	<script
-		src=" /ircondcs/resources/js/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+		src=" /kecdcs/resources/js/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 	<!-- Custom Theme Scripts -->
-	<script src=" /ircondcs/resources/js/custom.min.js"></script>
+	<script src=" /kecdcs/resources/js/custom.min.js"></script>
 
 	<!-- bootstrap-daterangepicker -->
-	<script src=" /ircondcs/resources/js/vendors/moment/min/moment.min.js"></script>
+	<script src=" /kecdcs/resources/js/vendors/moment/min/moment.min.js"></script>
 	<script
-		src=" /ircondcs/resources/js/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+		src=" /kecdcs/resources/js/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
 	<!-- bootstrap-daterangepicker -->
 
 	<!-- Datatables -->
 	<script
-		src=" /ircondcs/resources/js/vendors/datatables.net/js/jquery.dataTables.js"></script>
+		src=" /kecdcs/resources/js/vendors/datatables.net/js/jquery.dataTables.js"></script>
 	<script
-		src=" /ircondcs/resources/js/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+		src=" /kecdcs/resources/js/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
 	<script
-		src=" /ircondcs/resources/js/vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+		src=" /kecdcs/resources/js/vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
 	<script
-		src=" /ircondcs/resources/js/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+		src=" /kecdcs/resources/js/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
 
 	<!-- Datatables -->
 

@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="/ircondcs/resources/images/favicon-16x16.png" type="image/x-icon">
+	<link rel="icon" href="/kecdcs/resources/images/favicon-16x16.png" type="image/x-icon">
     <title>IRCON - Login </title>  
 	
 	<!-- Google font -->
@@ -17,24 +17,24 @@
     <!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'> -->
 	
     <!-- Bootstrap -->
-    <!-- <link href="/ircondcs/resources/js/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="/kecdcs/resources/js/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <!-- Font Awesome -->
-    <!-- <link href="/ircondcs/resources/js/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href="/kecdcs/resources/js/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
     
     <!-- NProgress -->
-    <!-- <link href="/ircondcs/resources/js/vendors/nprogress/nprogress.css" rel="stylesheet"> -->
-    <!-- <link href="/ircondcs/resources/css/animate.min.css" rel="stylesheet"> -->
+    <!-- <link href="/kecdcs/resources/js/vendors/nprogress/nprogress.css" rel="stylesheet"> -->
+    <!-- <link href="/kecdcs/resources/css/animate.min.css" rel="stylesheet"> -->
     
 
     <!-- Custom Theme Style -->
-    <!-- <link href="/ircondcs/resources/css/custom.min.css" rel="stylesheet"> -->
+    <!-- <link href="/kecdcs/resources/css/custom.min.css" rel="stylesheet"> -->
     <!-- Custom CSS Style -->
     
-    <!-- <link href="/ircondcs/resources/css/critical.min.css" rel='stylesheet' type='text/css'> -->
+    <!-- <link href="/kecdcs/resources/css/critical.min.css" rel='stylesheet' type='text/css'> -->
     
     <!-- jQuery -->
-    <script src=" /ircondcs/resources/js/vendors/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src=" /ircondcs/resources/js/jquery.validate.min.js"></script>
+    <script src=" /kecdcs/resources/js/vendors/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src=" /kecdcs/resources/js/jquery.validate.min.js"></script>
     <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
     
     <style>
@@ -155,7 +155,7 @@
 	    <li class="hi-trigger ma-trigger" data-ma-action="sidebar-open" data-ma-target="#sidebar">
 	     
 	    </li>
-	    <li class="hi-logo"> <a href="#"><img src="/ircondcs/resources/images/logo.png" ></a> </li>
+	    <li class="hi-logo"> <a href="#"><img src="/kecdcs/resources/images/logo.png" ></a> </li>
 	      <div class="tagline">Driving Infrastructure Forward</div>  
 	 
 	  </ul>
@@ -168,7 +168,7 @@
       
           <div class="row">
               <div class="col-6">
-                  <img src="/ircondcs/resources/images/login.png" style="width: 100%;">
+                  <img src="/kecdcs/resources/images/login.png" style="width: 100%;">
               </div>
               
               <div class="col-6">
@@ -198,7 +198,7 @@
                      <!--  <a href="#">Forgot Password?</a> -->
                   </form>
 
-                 <!--  <img src="/ircondcs/resources/images/login2.png" style="margin-top: 150px;"> -->
+                 <!--  <img src="/kecdcs/resources/images/login2.png" style="margin-top: 150px;"> -->
               </div>
           </div>
       </div>

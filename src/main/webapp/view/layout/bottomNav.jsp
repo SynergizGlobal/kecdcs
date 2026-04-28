@@ -1,5 +1,5 @@
-<%@page import="com.synergizglobal.ircondcs.model.User"%>
-<%@page import="com.synergizglobal.ircondcs.model.Folder"%>
+<%@page import="com.synergizglobal.kecdcs.model.User"%>
+<%@page import="com.synergizglobal.kecdcs.model.Folder"%>
 <%@page import="java.util.ArrayList"%>
 <%
 	User user = (User) session.getAttribute("USER");
@@ -31,7 +31,7 @@
 		                    	<%if(user.getRoleName().equalsIgnoreCase("ADMIN")) { %>
 			                        <li><a class="dropdown-item" href="#"  onclick="adminLogin()">Go to Admin</a></li>
 			                     <%} %>
-			                     <li><a class="" href="/ircondcs/resources/IRCON-DMS-USER-MANUAL-Final-V1.pdf" download="IRCON-DMS-USER-MANUAL-Final-V1.pdf">Manual</a></li>
+			                     <li><a class="" href="/kecdcs/resources/IRCON-DMS-USER-MANUAL-Final-V1.pdf" download="IRCON-DMS-USER-MANUAL-Final-V1.pdf">Manual</a></li>
 			                     <li><a class="dropdown-item" href="reset-password">Reset password</a></li>
 			                     <li><a class="dropdown-item" href="logout">Logout</a></li>
 		                    </ul>
@@ -131,7 +131,7 @@
 
      <script>
 	 function adminLogin(){
-	 	document.getElementById('loginForm').action = "https://www.syntrackpro.com/ircondcsadmin/login";
+	 	document.getElementById('loginForm').action = "https://www.syntrackpro.com/kecdcsadmin/login";
 		document.getElementById('loginForm').submit();
 	 }
      </script>
