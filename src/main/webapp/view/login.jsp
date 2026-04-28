@@ -172,7 +172,7 @@
               </div>
               
               <div class="col-6">
-                  <form class="form-signin" name="loginForm" id="loginForm" method="post">
+                  <form class="form-signin" name="loginForm" id="loginForm" method="post" action="<%=request.getContextPath() %>/login">
                       <br><br>
                       <div class="text-center"> <img src="/kecdcs/resources/images/logo.png" width="137px" height="57px"></div>
                       <br><br>

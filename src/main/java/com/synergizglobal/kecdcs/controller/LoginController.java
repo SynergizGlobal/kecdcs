@@ -46,7 +46,7 @@ public class LoginController {
 	@Value("${message.wrong.password.entered}")
 	public String wrongPasswordEntered;
 
-	@RequestMapping(value = "/", method = { RequestMethod.GET, RequestMethod.POST })
+	@RequestMapping(value = { "/", "/login" }, method = RequestMethod.GET)
 	public ModelAndView login() {
 		ModelAndView model = null;
 		try {
@@ -57,7 +57,7 @@ public class LoginController {
 		return model;
 	}
 
-	@RequestMapping(value = "/login", method = { RequestMethod.GET, RequestMethod.POST })
+	@RequestMapping(value = { "/", "/login" }, method = RequestMethod.POST)
 	public ModelAndView validateUser(@ModelAttribute User user, RedirectAttributes redir, HttpServletRequest request,
 			HttpSession session) {
 		ModelAndView model = new ModelAndView();
