@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="/kecdcs/resources/images/favicon-16x16.png"
 	type="image/x-icon">
-<title>IRCON - Document Management System</title>
+<title>KEC - Document Management System</title>
 <link href="/kecdcs/resources/css/critical.min.css" rel='stylesheet'
 	type='text/css'>
 
